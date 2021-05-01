@@ -4,7 +4,7 @@ metadata:
   name: open-svc
 spec:
   platforms:
-  - uri: "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.1.0/kubectl-open_svc-darwin-amd64.zip"
+  - uri: "https://github.com/hello/kubectl-open-svc-plugin/releases/download/v2.1.0/kubectl-open_svc-darwin-amd64.zip"
     sha256: "10274117f7db298f6be34675e7f0f2c5b54eabfb3c2f9417f40b20a773506e1f"
     bin: kubectl-open_svc
     files:
@@ -14,7 +14,7 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-  - uri: "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.1.0/kubectl-open_svc-linux-amd64.zip"
+  - uri: "https://github.com/hello/kubectl-open-svc-plugin/releases/download/v2.1.0/kubectl-open_svc-linux-amd64.zip"
     sha256: "d8c105826d6fd379304f19dc458ea8ff1fd6de17741681d726e17f1753f1525d"
     bin: kubectl-open_svc
     files:
@@ -29,4 +29,4 @@ spec:
   description: |
     Open the Kubernetes URL(s) for the specified service in your browser
     through a local proxy server using kubectl proxy.
-  homepage: https://github.com/superbrothers/kubectl-open-svc-plugin
+  homepage: https://github.com/hello/kubectl-open-svc-plugin
